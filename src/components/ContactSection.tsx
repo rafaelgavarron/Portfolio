@@ -1,5 +1,5 @@
-import { Mail, MapPin, Send } from "lucide-react";
-import { Button } from "./ui/button";
+import { Mail, MapPin, Send } from 'lucide-react';
+import { Button } from './ui/button';
 
 const ContactSection = () => {
   return (
@@ -23,7 +23,7 @@ const ContactSection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-8 mb-12">
             <div className="flex items-center gap-3 text-muted-foreground">
               <Mail className="text-primary" size={20} />
-              <span>email@exemplo.com</span>
+              <span>rafael.gavarron@gmail.com</span>
             </div>
             <div className="flex items-center gap-3 text-muted-foreground">
               <MapPin className="text-primary" size={20} />
@@ -32,17 +32,24 @@ const ContactSection = () => {
           </div>
 
           {/* CTA Button */}
-          <Button
-            variant="hero"
-            size="xl"
-            className="animate-pulse-glow"
-            asChild
-          >
-            <a href="mailto:email@exemplo.com">
-              <Send size={20} />
-              Enviar Mensagem
-            </a>
-          </Button>
+          <div className="gap-2">
+            <Button
+              variant="hero"
+              size="xl"
+              className="animate-pulse-glow mr-5 sm:m-7"
+              asChild
+            >
+              <a href="mailto:rafael.gavarron@gmail.com">
+                <Send size={20} />
+                Enviar Mensagem
+              </a>
+            </Button>
+            <Button variant="hero" size="xl" className="animate-pulse-glow">
+              <a href="https://calendly.com/rafael-gavarron/new-meeting">
+                Agende uma reunião
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
