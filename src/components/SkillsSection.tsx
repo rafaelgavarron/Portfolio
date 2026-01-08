@@ -1,20 +1,32 @@
 const SkillsSection = () => {
   const skillCategories = [
     {
-      title: "Design",
-      skills: ["UI/UX Design", "Figma", "Design Responsivo", "Prototipação", "Design System"],
+      title: 'Design',
+      skills: [
+        'UI/UX Design',
+        'Figma',
+        'Design Responsivo',
+        'Prototipação',
+        'Design System',
+      ],
     },
     {
-      title: "Desenvolvimento",
-      skills: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Animações"],
+      title: 'Desenvolvimento',
+      skills: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Animações'],
     },
     {
-      title: "Conversão",
-      skills: ["Copywriting", "A/B Testing", "CRO", "Analytics", "SEO"],
+      title: 'Conversão',
+      skills: ['Copywriting', 'A/B Testing', 'CRO', 'Analytics', 'SEO'],
     },
     {
-      title: "Integrações",
-      skills: ["Formulários", "Email Marketing", "Pagamentos", "CRM", "Automações"],
+      title: 'Integrações',
+      skills: [
+        'Formulários',
+        'Email Marketing',
+        'Pagamentos',
+        'CRM',
+        'Automações',
+      ],
     },
   ];
 

@@ -21,8 +21,8 @@ const ProjectsSection = () => {
     {
       title: 'Pedido de namoro',
       description:
-        'Dashboard interativo para visualização de dados com gráficos customizáveis, exportação de relatórios e alertas automatizados.',
-      tags: ['React', 'D3.js', 'Python', 'FastAPI'],
+        'Aplicação web desenvolvida para criar uma experiência digital única e inesquecível de pedido de namoro. O projeto utiliza uma interface moderna e responsiva para guiar o usuário através de uma narrativa romântica e interativa.',
+      tags: ['Next.js', 'React', 'Typescript'],
       github: 'https://github.com/rafaelgavarron/pedido-namoro',
       live: 'https://quiz-do-amor1.vercel.app/',
     },
@@ -62,6 +62,8 @@ const ProjectsSection = () => {
                   <div className="flex items-center gap-4">
                     <a
                       href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"
                       aria-label="Ver código no GitHub"
                     >
@@ -69,6 +71,8 @@ const ProjectsSection = () => {
                     </a>
                     <a
                       href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"
                       aria-label="Ver projeto ao vivo"
                     >
