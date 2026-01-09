@@ -1,17 +1,17 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
     <footer className="py-12 border-t border-border">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="flex flex-col md:flex-row items-center justify-between ">
           {/* Logo */}
           <a href="#" className="font-mono text-lg font-bold text-primary">
-            {"<dev />"}
+            {'<dev />'}
           </a>
 
           {/* Social Links */}
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-6 ">
             <a
               href="https://github.com/rafael"
               target="_blank"
@@ -41,7 +41,8 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground font-mono">
-            © {new Date().getFullYear()} Desenvolvido com ♥
+            © {new Date().getFullYear()} Rafael Gavarron. Todos os direitos
+            reservados.
           </p>
         </div>
       </div>

@@ -3,21 +3,21 @@ import { ExternalLink, Github, Folder } from 'lucide-react';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: 'Make beauty',
+      title: 'Gestão Financeira Pessoal (Fintech Dashboard)',
       description:
-        'Landing Page de alta conversão para profissional de beleza (Noivas & Eventos). Inclui sistema de agendamento automático para reduzir gestão manual e galeria de portfólio otimizada.',
-      tags: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-      github: '#',
-      live: '#',
+        'Sistema completo para gerenciamento de finanças pessoais. Os usuários podem adicionar despesas e receitas, acompanhar o fluxo de caixa mensal através de dashboards visuais e gerenciar sua conta com segurança. Construído para ser rápido e intuitivo.',
+      tags: ['React', 'TypeScript', 'Tailwind CSS'],
+      github: 'https://github.com/rafaelgavarron/Fintech',
+      live: 'https://fintech-lyart.vercel.app/',
     },
-    {
-      title: 'Clarice',
-      description:
-        'Aplicativo de gerenciamento de tarefas com funcionalidades de colaboração em tempo real, notificações e integração com calendário.',
-      tags: ['CI/CD', 'Github Actions'],
-      github: '#',
-      live: '#',
-    },
+    // {
+    //   title: 'Clarice',
+    //   description:
+    //     'Aplicativo de gerenciamento de tarefas com funcionalidades de colaboração em tempo real, notificações e integração com calendário.',
+    //   tags: ['CI/CD', 'Github Actions'],
+    //   github: '#',
+    //   live: '#',
+    // },
     {
       title: 'Pedido de namoro',
       description:
@@ -26,14 +26,14 @@ const ProjectsSection = () => {
       github: 'https://github.com/rafaelgavarron/pedido-namoro',
       live: 'https://quiz-do-amor1.vercel.app/',
     },
-    {
-      title: 'API Gateway',
-      description:
-        'Microserviço de API Gateway com rate limiting, autenticação JWT, cache distribuído e monitoramento de performance.',
-      tags: ['Go', 'Redis', 'Docker', 'Kubernetes'],
-      github: '#',
-      live: '#',
-    },
+    // {
+    //   title: 'API Gateway',
+    //   description:
+    //     'Microserviço de API Gateway com rate limiting, autenticação JWT, cache distribuído e monitoramento de performance.',
+    //   tags: ['Go', 'Redis', 'Docker', 'Kubernetes'],
+    //   github: '#',
+    //   live: '#',
+    // },
   ];
 
   return (
@@ -91,7 +91,7 @@ const ProjectsSection = () => {
 
                 {/* Tags */}
                 <div className="flex flex-wrap gap-2">
-                  {project.tags.map((tag, tagIndex) => (
+                  {project.tags?.map((tag, tagIndex) => (
                     <span
                       key={tagIndex}
                       className="px-3 py-1 text-xs font-mono text-primary bg-primary/10 rounded-full"
