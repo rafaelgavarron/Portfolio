@@ -32,11 +32,11 @@ const ContactSection = () => {
           </div>
 
           {/* CTA Button */}
-          <div className="gap-2">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button
               variant="hero"
               size="xl"
-              className="animate-pulse-glow mr-5 sm:m-7"
+              className="animate-pulse-glow"
               asChild
             >
               <a href="mailto:rafael.gavarron@gmail.com">
