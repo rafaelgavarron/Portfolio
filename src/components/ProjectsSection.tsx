@@ -3,12 +3,12 @@ import { ExternalLink, Github, Folder } from 'lucide-react';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: 'Gestão Financeira Pessoal (Fintech Dashboard)',
+      title: 'Modelo Landing Page para clínicas de estética',
       description:
-        'Sistema completo para gerenciamento de finanças pessoais. Os usuários podem adicionar despesas e receitas, acompanhar o fluxo de caixa mensal através de dashboards visuais e gerenciar sua conta com segurança. Construído para ser rápido e intuitivo.',
+        'Uma landing page moderna e otimizada para conversão, desenvolvida para uma clinica de estética especializada em Mega Hair, Alongamentos e tratamentos faciais. O design destaca credibilidade, resultados e chamadas estratégicas para agendamento de consultas.',
       tags: ['React', 'TypeScript', 'Tailwind CSS'],
       github: 'https://github.com/rafaelgavarron/Fintech',
-      live: 'https://fintech-lyart.vercel.app/',
+      live: 'https://studio-vogt.gavarron.com.br/',
     },
     // {
     //   title: 'Clarice',
